@@ -11,8 +11,46 @@
   </url>
   
   <url>
+    <loc>http://example.org/tags/ansible/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/c&#43;&#43;/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://example.org/categories/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/win-dev-tools/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/go/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/python/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/shell/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/start-with-ansible/</loc>
   </url>
   
   <url>

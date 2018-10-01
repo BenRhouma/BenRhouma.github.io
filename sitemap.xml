@@ -3,21 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/cont/</loc>
-  </url>
-  
-  <url>
     <loc>http://example.org/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/ansible/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/c&#43;&#43;/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -26,12 +12,7 @@
   </url>
   
   <url>
-    <loc>http://example.org/posts/win-dev-tools/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/go/</loc>
-    <priority>0</priority>
+    <loc>http://example.org/posts/devtools/everything/</loc>
   </url>
   
   <url>
@@ -40,17 +21,13 @@
   </url>
   
   <url>
-    <loc>http://example.org/tags/python/</loc>
+    <loc>http://example.org/tags/productivity/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/shell/</loc>
+    <loc>http://example.org/tags/search/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/posts/start-with-ansible/</loc>
   </url>
   
   <url>

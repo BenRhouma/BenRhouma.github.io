@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.49" />
-    <meta name="description" content="Documentation for Hugo Learn Theme">
+    <meta name="description" content="Everything the tool you need">
 <meta name="author" content="Ben Rhouma Zied">
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
-    <title>Posts :: My New Hugo Site</title>
+    <title>Everything the tool you need :: My New Hugo Site</title>
 
     
     <link href="/css/nucleus.css?1538448176" rel="stylesheet">
@@ -34,7 +34,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/posts/">
+  <body class="" data-url="/posts/devtools/everything/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -79,7 +79,7 @@
     
     <li data-nav-id="/posts/" title="Posts" class="dd-item 
         parent
-        active
+        
         
         ">
       <a href="/posts/">
@@ -104,7 +104,7 @@
  
   
     
-      <li data-nav-id="/posts/devtools/everything/" title="Everything the tool you need" class="dd-item ">
+      <li data-nav-id="/posts/devtools/everything/" title="Everything the tool you need" class="dd-item active">
         <a href="/posts/devtools/everything/">
         Everything the tool you need
         <i class="fas fa-check read-icon"></i>
@@ -195,6 +195,13 @@
                   
                   
                   
+                  <div id="top-github-link">
+                    <a class="github-link" title='Edit this page' href="https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/posts/devtools/everything.md" target="blank">
+                      <i class="fas fa-code-branch"></i>
+                      <span id="top-github-link-text">Edit this page</span>
+                    </a>
+                  </div>
+                  
                 
                 
                 <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
@@ -214,7 +221,13 @@
             
           
           
-            <a href='/'></a> > Posts
+            
+            
+          
+          
+            <a href='/'></a> > <a href='/posts/'>Posts</a> > Everything the tool you need
+          
+         
           
          
           
@@ -224,7 +237,27 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#everything-realtime-filesystem-indexing">Everything (Realtime filesystem indexing)</a>
+<ul>
+<li><a href="#introduction"><strong>Introduction</strong></a></li>
+<li><a href="#getting-started"><strong>Getting started</strong></a></li>
+<li><a href="#search-options-features"><strong>Search options &amp; features</strong></a></li>
+<li><a href="#use-cases"><strong>Use Cases</strong></a></li>
+<li><a href="#example-you-want-to-search-for-the-host-file-under-system"><strong>Example</strong>: you want to search for the host file under system</a></li>
+<li><a href="#how-to-setup-everything-s-web-search"><strong>How to setup Everything&rsquo;s Web search</strong>:</a></li>
+<li><a href="#define-a-key-for-better-productivity"><strong>Define a key for better productivity</strong></a></li>
+<li><a href="#to-end-this-post"><strong>To end this post</strong></a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -236,7 +269,7 @@
         
         <div id="body-inner">
           
-            <h1>Posts</h1>
+            <h1>Everything the tool you need</h1>
           
 
         
@@ -244,9 +277,223 @@
 
 
 
+<h3 id="everything-realtime-filesystem-indexing">Everything (Realtime filesystem indexing)</h3>
+
+<h4 id="introduction"><strong>Introduction</strong></h4>
+
+<p>Everything is a tool that query NTFS filesystem for any change that happen to
+  any referenced device and provide a way to have control over you machine.
+  the binary it self is no more than 2 megs. and it can change the way you interact with windows
+  explorer forever.</p>
+
+<p>If you combine the tool with a hotkey you can decrease the use of windows explorer to 10%.</p>
+
+<p>I&rsquo;m such lazy person who doesn&rsquo;t want to memorize in my poor brain my subsystem&rsquo;s files location,
+  So what I do is only make sure to put the files in a adequate location and forget about them.
+  I memorize only the file/folder name that I want to open, or just a file under the folder that
+  I want to search for.</p>
+
+<p>This tool becomes very handy if you are a developer and you want to access files very often.
+  By time, you will discover how useful this tool is, I don&rsquo;t say these words without proofs.
+  I have been using this tool for years now, since Windows XP era, and my cogent argument is that
+  I&rsquo;m still using it every hour (even when i&rsquo;m sleeping :@  ).</p>
+
+<h4 id="getting-started"><strong>Getting started</strong></h4>
+
+<ul>
+<li><p>To begin let&rsquo;s start by downloding the tool from this link <a href="https://www.voidtools.com/">Downlaod link</a></p></li>
+
+<li><p>Try to install Everything as windows Service, just activate auto next mode by clicking always on next :)</p></li>
+
+<li><p>After the install you will see something similar to the image below. type a file name in the input text
+and you will see the search result.</p></li>
+</ul>
+
+
+<figure>
+    
+        <img src="/images/p01/everything.png" />
+    
+    
+    <figcaption>
+        <h4>Everything overview</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h4 id="search-options-features"><strong>Search options &amp; features</strong></h4>
+
+<ul>
+<li>Advanced Realtime search</li>
+<li>Remote Realtime <a href="#how-to-setup-everything-s-web-search">web browser search</a> using mini <strong>Http server</strong></li>
+<li>Remote Realtime search via mini <strong>Ftp server</strong>
+<br /></li>
+</ul>
+
+<p>Searching for files requires often the use of regular and logical expression, I advice every one to read
+  the help at least once, see the image below to have an idea about it.<br />
+  
+<figure>
+    
+        <img src="/images/p01/everything_advanced_search.png" />
+    
+    
+    <figcaption>
+        <h4>Advanced  search features</h4>
+        
+    </figcaption>
+    
+</figure>
+</p>
+
+<h4 id="use-cases"><strong>Use Cases</strong></h4>
+
+<ul>
+<li>search for a specific file</li>
+<li>search for a pattern &lsquo;*.dll, *.exe, &hellip;&rsquo;</li>
+<li>search for a pattern under a location</li>
+<li>search the count of pattern</li>
+<li>search under a specific location
+<br /></li>
+</ul>
+
+<p><strong>Use case example</strong> (<em>where is my config file</em>)</p>
+
+<p>Suppose that you have just installed XMAPP or anything similar that includes many other programs, like
+  apache server, mysql, php etc&hellip; and you want to know in which location your config files are.</p>
+
+<p>For example, you are looking for mysql.ini, but there are many files with the same name to the point that will be confused.</p>
+
+<p>Everything can help, to make this problem easier, instead of opening these files one by one to know which one is
+  the actual config file,
+  you only need to search for  <em>mysql.ini</em> under <em>xampp</em> folder, you can open them faster, because you will see them all in one location.
+  you will see their path, size and modification date.</p>
+
+<h4 id="example-you-want-to-search-for-the-host-file-under-system"><strong>Example</strong>: you want to search for the host file under system</h4>
+
+<p>type in the search field : <code>\system hosts</code></p>
+
+
+<figure>
+    
+        <img src="/images/p01/everything-01.png" />
+    
+    
+    <figcaption>
+        <h4>Searching for hosts file</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>if you want to filter more add <code>!*.ics !*.sam</code> and you will have only your file.
+  note that ! will negate the result, so !*.ics means exclude all files that have the extension ics</p>
+
+<p>The final result should be <code>\system hosts    !*.ics     !*.sam</code>.</p>
+
+<p><br>
+  <br></p>
+
+<h4 id="how-to-setup-everything-s-web-search"><strong>How to setup Everything&rsquo;s Web search</strong>:</h4>
+
+<ul>
+<li>Start by going to option</li>
+</ul>
+
+<p>
+<figure>
+    
+        <img src="/images/p01/other_tools.png" />
+    
+    
+    <figcaption>
+        <h4>Open options window</h4>
+        
+    </figcaption>
+    
+</figure>
+
+<br>
+<br></p>
+
+<ul>
+<li><p>Select Http server from the side bar, then configure the web server as detailed in the image below.
+
+<figure>
+    
+        <img src="/images/p01/other_tools_01.png" />
+    
+    
+    <figcaption>
+        <h4>Everything http server configuration</h4>
+        
+    </figcaption>
+    
+</figure>
+
+<br>
+<br></p></li>
+
+<li><p>The result: everything is running in a browser, you can search in you machine by typing in the input text.<br />
+
+<figure>
+    
+        <img src="/images/p01/other_tools_result.png" />
+    
+    
+    <figcaption>
+        <h4>Everything in web browser</h4>
+        
+    </figcaption>
+    
+</figure>
+
+<br></p></li>
+</ul>
+
+<h4 id="define-a-key-for-better-productivity"><strong>Define a key for better productivity</strong></h4>
+
+<p>After installing everything, it will be better to configure a hotkey to launch everything search
+window instead of going to try menu and select the icon.</p>
+
+<p>To configure it, just :</p>
+
+<ul>
+<li>Go to to  <a href="#how-to-setup-everything-s-web-search">options</a></li>
+<li>Specify a key in (new window hotkey)</li>
+<li>validate by clicking on OK</li>
+</ul>
+
+
+<figure>
+    
+        <img src="/images/p01/everything_hotkey.png" />
+    
+    
+    <figcaption>
+        <h4>Everything hotkey</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h4 id="to-end-this-post"><strong>To end this post</strong></h4>
+
+<p>I can&rsquo;t thank enough the one who have the idea to implement such amazing program, it becomes the most used program in
+  my day to day life.</p>
+
+<p>Thank you David carpenter ,   <a href="https://www.voidtools.com/donate/">Please donate</a> if you see figure out that this tool is
+  handy for you.</p>
+
+
 <footer class=" footline" >
 	
 </footer>
+
 
         
         </div> 
@@ -293,8 +540,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -317,10 +562,8 @@
 
 
         
-            <a class="nav nav-prev" href="/" title=""> <i class="fas fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/posts/" title="Posts"> <i class="fas fa-chevron-left"></i></a>
         
-        
-            <a class="nav nav-next" href="/posts/devtools/everything/" title="Everything the tool you need" style="margin-right: 0px;"><i class="fas fa-chevron-right"></i></a>
         
     </div>
 
@@ -358,3 +601,4 @@
 </script>
   </body>
 </html>
+

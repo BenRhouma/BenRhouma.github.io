@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>http://example.org/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Posts on </title>
+    <link>http://benrhouma.github.io/posts/</link>
+    <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://benrhouma.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Everything the tool you need</title>
-      <link>http://example.org/posts/devtools/everything/</link>
+      <link>http://benrhouma.github.io/posts/devtools/everything/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/devtools/everything/</guid>
+      <guid>http://benrhouma.github.io/posts/devtools/everything/</guid>
       <description>Everything (Realtime filesystem indexing) Introduction Everything is a tool that query NTFS filesystem for any change that happen to any referenced device and provide a way to have control over you machine. the binary it self is no more than 2 megs. and it can change the way you interact with windows explorer forever.
 If you combine the tool with a hotkey you can decrease the use of windows explorer to 10%.</description>
     </item>
